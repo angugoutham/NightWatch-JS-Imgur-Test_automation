@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="5"
+            failures="0"
+            tests="1">
+
+  <testsuite name="1_add_image"
+    errors="5" failures="0" hostname="" id="" package="1_add_image" skipped="0"
+    tests="1" time="34.71" timestamp="Fri, 24 Mar 2017 03:15:03 GMT">
+  
+    <testcase name="Demo imgur Google" classname="1_add_image" time="34.71" assertions="1">
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;span[class=&quot;upload-btn-text&quot;]&quot; using: css selector
+    at Object.Demo imgur Google (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/test/firefox/1_add_image.js:18:14)
+    at Module.call (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:796:13)
+    at /Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:556:49
+    at runSingle (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:137:13)
+    at flush (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;input[type=&quot;file&quot;]&quot; using: css selector
+    at Object.Demo imgur Google (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/test/firefox/1_add_image.js:19:14)
+    at Module.call (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:796:13)
+    at /Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:556:49
+    at runSingle (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:137:13)
+    at flush (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;h1[class=&quot;post-title post-contenteditable&quot;]&quot; using: css selector
+    at Object.Demo imgur Google (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/test/firefox/1_add_image.js:21:14)
+    at Module.call (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:796:13)
+    at /Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:556:49
+    at runSingle (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:137:13)
+    at flush (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;div[class=&quot;post-image-description post-image-description--editable post-contenteditable&quot;]&quot; using: css selector
+    at Object.Demo imgur Google (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/test/firefox/1_add_image.js:23:14)
+    at Module.call (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:796:13)
+    at /Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:556:49
+    at runSingle (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:137:13)
+    at flush (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+ERROR: Unable to locate element: &quot;a[class=&quot;post-options-publish btn btn-action&quot;]&quot; using: css selector
+    at Object.Demo imgur Google (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/test/firefox/1_add_image.js:25:14)
+    at Module.call (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:796:13)
+    at /Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:556:49
+    at runSingle (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:137:13)
+    at flush (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

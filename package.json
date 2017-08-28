@@ -1,0 +1,24 @@
+{
+  "name": "imgur-Test-automation",
+  "version": "1.0.0",
+  "description": " nightwatch automation test script for imgur website",
+  "engines": {
+    "node": "4.4.6"
+  },
+  "dependencies": {
+    "nightwatch": "^0.9.9",
+    "selenium-download": "^2.0.7"
+  },
+  "devDependencies": {
+    "nightwatch": "^0.9.13",
+    "selenium-download": "^2.0.9"
+  },
+
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "chrome": "node_modules/.bin/nightwatch --config nightWatch-chrome.conf.js",
+    "firefox":"node_modules/.bin/nightwatch --config nightWatch-Firefox.conf.js"
+  }
+}

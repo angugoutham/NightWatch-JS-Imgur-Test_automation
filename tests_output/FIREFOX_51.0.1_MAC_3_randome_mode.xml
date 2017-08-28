@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="3_randome_mode"
+    errors="0" failures="1" hostname="" id="" package="3_randome_mode" skipped="0"
+    tests="1" time="9.896" timestamp="Fri, 24 Mar 2017 03:15:46 GMT">
+  
+    <testcase name="Demo imgur Google" classname="3_randome_mode" time="9.896" assertions="1">  <failure message="Timed out while waiting for element &lt;body&gt; to be present for 1000 milliseconds.">    at Object.Demo imgur Google (/Users/arajasekaran/WebstormProjects/imgur-Test-automation/test/firefox/3_randome_mode.js:7:14)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

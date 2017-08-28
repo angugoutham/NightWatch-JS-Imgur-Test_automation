@@ -1,0 +1,120 @@
+11:59:56.116 INFO - Selenium build info: version: '3.3.1', revision: '5234b32'
+11:59:56.117 INFO - Launching a standalone Selenium Server
+2017-08-28 11:59:56.172:INFO::main: Logging initialized @445ms to org.seleniumhq.jetty9.util.log.StdErrLog
+11:59:56.264 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+11:59:56.265 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+11:59:56.265 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:59:56.265 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+11:59:56.265 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:59:56.265 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-08-28 11:59:56.350:INFO:osjs.Server:main: jetty-9.2.20.v20161216
+2017-08-28 11:59:56.411:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@685cb137{/,null,AVAILABLE}
+2017-08-28 11:59:56.461:INFO:osjs.AbstractConnector:main: Started ServerConnector@5bcab519{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-08-28 11:59:56.462:INFO:osjs.Server:main: Started @735ms
+11:59:56.462 INFO - Selenium Server is up and running
+11:59:56.781 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+11:59:56.817 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=1 Add Image, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+11:59:56.843 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=1 Add Image, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f) on port 20952
+Only local connections are allowed.
+11:59:58.582 INFO - Detected dialect: OSS
+11:59:58.613 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=1 Add Image, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+11:59:58.635 INFO - Executing: [get: http://imgur.com/])
+12:00:00.272 INFO - Done: [get: http://imgur.com/]
+12:00:00.283 INFO - Executing: [find elements: By.cssSelector: body])
+12:00:00.334 INFO - Done: [find elements: By.cssSelector: body]
+12:00:00.342 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: body]])
+12:00:00.368 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: body]]
+12:00:00.375 INFO - Executing: [get title])
+12:00:00.382 INFO - Done: [get title]
+12:00:00.403 INFO - Executing: [find element: By.cssSelector: a[class = "topbar-icon signin-register "]])
+12:00:00.435 INFO - Done: [find element: By.cssSelector: a[class = "topbar-icon signin-register "]]
+12:00:00.440 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: a[class = "topbar-icon signin-register "]]])
+12:00:01.274 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: a[class = "topbar-icon signin-register "]]]
+12:00:01.279 INFO - Executing: [find element: By.cssSelector: input[id="username"]])
+12:00:01.303 INFO - Done: [find element: By.cssSelector: input[id="username"]]
+12:00:01.309 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: input[id="username"]], [c, y, b, e, r, c, o, d, e, r, s, 2, 3]])
+12:00:01.430 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: input[id="username"]], [c, y, b, e, r, c, o, d, e, r, s, 2, 3]]
+12:00:01.540 INFO - Executing: [find element: By.cssSelector: input[id="password"]])
+12:00:01.561 INFO - Done: [find element: By.cssSelector: input[id="password"]]
+12:00:01.567 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: input[id="password"]], [K, e, e, p, c, a, l, m, 2, 3]])
+12:00:01.662 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: input[id="password"]], [K, e, e, p, c, a, l, m, 2, 3]]
+12:00:01.772 INFO - Executing: [find element: By.cssSelector: button[type="submit"]])
+12:00:01.793 INFO - Done: [find element: By.cssSelector: button[type="submit"]]
+12:00:01.797 INFO - Executing: [click: 4 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: button[type="submit"]]])
+12:00:03.470 INFO - Done: [click: 4 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: button[type="submit"]]]
+12:00:03.474 INFO - Executing: [get title])
+12:00:03.480 INFO - Done: [get title]
+12:00:04.488 INFO - Executing: [find element: By.cssSelector: span[class="upload-btn-text"]])
+12:00:04.507 INFO - Done: [find element: By.cssSelector: span[class="upload-btn-text"]]
+12:00:04.510 INFO - Executing: [click: 5 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: span[class="upload-btn-text"]]])
+12:00:04.592 INFO - Done: [click: 5 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: span[class="upload-btn-text"]]]
+12:00:04.597 INFO - Executing: [find element: By.cssSelector: input[type="file"]])
+12:00:04.666 INFO - Done: [find element: By.cssSelector: input[type="file"]]
+12:00:04.694 INFO - Executing: [send keys: 6 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: input[type="file"]], [/, U, s, e, r, s, /, a, r, a, j, a, s, e, k, a, r, a, n, /, W, e, b, s, t, o, r, m, P, r, o, j, e, c, t, s, /, i, m, g, u, r, -, T, e, s, t, -, a, u, t, o, m, a, t, i, o, n, /, s, a, c, h, i, n, ., j, p, e, g]])
+12:00:04.762 INFO - Done: [send keys: 6 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: input[type="file"]], [/, U, s, e, r, s, /, a, r, a, j, a, s, e, k, a, r, a, n, /, W, e, b, s, t, o, r, m, P, r, o, j, e, c, t, s, /, i, m, g, u, r, -, T, e, s, t, -, a, u, t, o, m, a, t, i, o, n, /, s, a, c, h, i, n, ., j, p, e, g]]
+12:00:05.771 INFO - Executing: [find element: By.cssSelector: h1[class="post-title post-contenteditable"]])
+12:00:05.797 INFO - Done: [find element: By.cssSelector: h1[class="post-title post-contenteditable"]]
+12:00:05.804 INFO - Executing: [send keys: 7 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: h1[class="post-title post-contenteditable"]], [s, a, c, h, i, n, r, a, m, e, s, h]])
+12:00:05.929 INFO - Done: [send keys: 7 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: h1[class="post-title post-contenteditable"]], [s, a, c, h, i, n, r, a, m, e, s, h]]
+12:00:06.939 INFO - Executing: [find element: By.cssSelector: div[class="post-image-description post-image-description--editable post-contenteditable"]])
+12:00:06.959 INFO - Done: [find element: By.cssSelector: div[class="post-image-description post-image-description--editable post-contenteditable"]]
+12:00:06.964 INFO - Executing: [send keys: 8 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: div[class="post-image-description post-image-description--editable post-contenteditable"]], [#, g, o, d, o, f, c, r, i, c, k, e, t, 1, 1]])
+12:00:07.105 INFO - Done: [send keys: 8 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: div[class="post-image-description post-image-description--editable post-contenteditable"]], [#, g, o, d, o, f, c, r, i, c, k, e, t, 1, 1]]
+12:00:08.112 INFO - Executing: [find element: By.cssSelector: a[class="post-options-publish btn btn-action"]])
+12:00:08.132 INFO - Done: [find element: By.cssSelector: a[class="post-options-publish btn btn-action"]]
+12:00:08.138 INFO - Executing: [click: 9 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: a[class="post-options-publish btn btn-action"]]])
+12:00:08.217 INFO - Done: [click: 9 [[ChromeDriver: chrome on MAC (5f61e1dfaf80453cc539b0e5b9cac6b6)] -> css selector: a[class="post-options-publish btn btn-action"]]]
+12:00:09.243 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=2 Search For Uploaded Tag, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+12:00:09.244 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=2 Search For Uploaded Tag, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f) on port 15623
+Only local connections are allowed.
+12:00:10.425 INFO - Detected dialect: OSS
+12:00:10.428 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=2 Search For Uploaded Tag, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+12:00:10.434 INFO - Executing: [get: http://imgur.com/])
+12:00:11.973 INFO - Done: [get: http://imgur.com/]
+12:00:11.978 INFO - Executing: [find elements: By.cssSelector: body])
+12:00:12.006 INFO - Done: [find elements: By.cssSelector: body]
+12:00:12.010 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (481147a306925355b479ebbd75b86ca9)] -> css selector: body]])
+12:00:12.028 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (481147a306925355b479ebbd75b86ca9)] -> css selector: body]]
+12:00:12.032 INFO - Executing: [get title])
+12:00:12.038 INFO - Done: [get title]
+12:00:12.044 INFO - Executing: [find element: By.cssSelector: div[class = "icon-search"]])
+12:00:12.066 INFO - Done: [find element: By.cssSelector: div[class = "icon-search"]]
+12:00:12.073 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (481147a306925355b479ebbd75b86ca9)] -> css selector: div[class = "icon-search"]]])
+12:00:12.154 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (481147a306925355b479ebbd75b86ca9)] -> css selector: div[class = "icon-search"]]]
+12:00:12.160 INFO - Executing: [find element: By.cssSelector: input[name="q"]])
+12:00:12.194 INFO - Done: [find element: By.cssSelector: input[name="q"]]
+12:00:12.200 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (481147a306925355b479ebbd75b86ca9)] -> css selector: input[name="q"]], [t, a, g, :, g, o, d, o, f, c, r, i, c, k, e, t, 1, 1]])
+12:00:12.457 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (481147a306925355b479ebbd75b86ca9)] -> css selector: input[name="q"]], [t, a, g, :, g, o, d, o, f, c, r, i, c, k, e, t, 1, 1]]
+12:00:22.469 INFO - Executing: [find element: By.cssSelector: div[class = "icon-search searchable"]])
+12:00:22.491 INFO - Done: [find element: By.cssSelector: div[class = "icon-search searchable"]]
+12:00:22.494 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (481147a306925355b479ebbd75b86ca9)] -> css selector: div[class = "icon-search"]]])
+12:00:23.482 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (481147a306925355b479ebbd75b86ca9)] -> css selector: div[class = "icon-search"]]]
+12:00:24.501 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=3 Randome Mode, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+12:00:24.502 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=3 Randome Mode, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f) on port 42718
+Only local connections are allowed.
+12:00:25.672 INFO - Detected dialect: OSS
+12:00:25.674 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=3 Randome Mode, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+12:00:25.684 INFO - Executing: [get: http://imgur.com/])
+12:00:27.339 INFO - Done: [get: http://imgur.com/]
+12:00:27.348 INFO - Executing: [find elements: By.cssSelector: body])
+12:00:27.381 INFO - Done: [find elements: By.cssSelector: body]
+12:00:27.385 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (851b18b0f819d6549adabf33142c83ea)] -> css selector: body]])
+12:00:27.414 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (851b18b0f819d6549adabf33142c83ea)] -> css selector: body]]
+12:00:27.418 INFO - Executing: [get title])
+12:00:27.427 INFO - Done: [get title]
+12:00:28.437 INFO - Executing: [find element: By.cssSelector: a[id = "random-button"]])
+12:00:28.458 INFO - Done: [find element: By.cssSelector: a[id = "random-button"]]
+12:00:28.462 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (851b18b0f819d6549adabf33142c83ea)] -> css selector: a[id = "random-button"]]])
+12:01:28.469 INFO - Executing: [find element: By.cssSelector: input[name="q"]])
+12:01:29.737 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (851b18b0f819d6549adabf33142c83ea)] -> css selector: a[id = "random-button"]]]
+12:01:29.760 INFO - Done: [find element: By.cssSelector: input[name="q"]]
+12:01:29.765 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (851b18b0f819d6549adabf33142c83ea)] -> css selector: input[name="q"]], [t, a, g, :, R, i, b, a, k, a, d, a, b, a]])
+12:01:30.088 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (851b18b0f819d6549adabf33142c83ea)] -> css selector: input[name="q"]], [t, a, g, :, R, i, b, a, k, a, d, a, b, a]]
+12:01:30.095 INFO - Executing: [get current url])
+12:01:30.103 INFO - Done: [get current url]

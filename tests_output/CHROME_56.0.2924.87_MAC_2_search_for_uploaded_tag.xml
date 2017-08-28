@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="2_search_for_uploaded_tag"
+    errors="0" failures="0" hostname="" id="" package="2_search_for_uploaded_tag" skipped="0"
+    tests="1" time="16.15" timestamp="Sat, 01 Apr 2017 23:07:02 GMT">
+  
+    <testcase name="Demo imgur Google" classname="2_search_for_uploaded_tag" time="16.15" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
